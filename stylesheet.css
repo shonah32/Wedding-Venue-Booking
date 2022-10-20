@@ -1,0 +1,365 @@
+body{
+    background-color: #fcf7fc; 
+}
+
+.top_box{
+    padding: 15px;
+    background-color: #70A9A1;
+}
+
+.logo{
+    height: 15%;
+    width: 15%; 
+    position: absolute;
+}
+
+.text{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+
+#top_box{ /* overrides the top_box class attributes */ 
+    color: #F9F8EF;
+}
+
+.carousel{
+    width: 70%;
+    height: 50%;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.textOverlay {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #5e5d5e;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}               
+
+.carousel-inner:hover .image {
+    opacity: 0.35;
+}
+
+.carousel-inner:hover .middle {
+    opacity: 1;
+}
+
+.parallax {
+    background-image: url("openingpic.png");
+    min-height: 100vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.parallax2 {
+    background-image: url("rosesDark.png");
+    min-height: 400px;; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("flowers2.jpg"); 
+    /* background-image: url("rosesbooking.jpg"); */
+    min-height: 600px;; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstpic {
+    position: relative;
+}
+
+.dreamwedding {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    color: #5e5d5e; 
+    letter-spacing: 5px;
+    padding-right: 5%; 
+}
+
+.headings{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; 
+    font-size: 225%;
+    color: #5e5d5e; 
+    letter-spacing: 5px;
+}
+
+.subheadings{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 115%;
+    color: #5e5d5e; 
+    letter-spacing: 5px;
+}
+
+.roundpics {
+    border-radius: 50%;
+    max-width: 60vh; 
+
+}
+
+.subtext{
+    font-size: 2vh;
+    font-weight: 300; 
+    letter-spacing: 2px; 
+    padding-top: 5%; 
+    text-align: center;
+    padding-right: 15%; 
+    padding-left: 10%; 
+    
+} 
+
+.container{
+    position: relative;
+    text-align: center;
+    }
+
+.bookings{
+    background-color: #e0d3d9;  
+    opacity: 98%; 
+    border-radius: 25px;
+}
+
+.oval {
+    background: white;
+    border-radius: 50%;
+    }
+
+.socials{
+    width: 14vh;
+    height: 3vh;
+
+}
+
+.quote{
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+    font-weight: 500; 
+    letter-spacing: 2px; 
+    padding-top: 5%; 
+    text-align: center;
+    padding-right: 30%; 
+    padding-left: 30%; 
+    color: white; 
+}
+
+#name{
+    font-size: 170%;
+    padding-top: 0%; 
+    font-style: italic;
+}
+
+.card{
+    font-family: 'Raleway', sans-serif;
+    color: #5e5d5e; 
+    letter-spacing: 1px;
+    font-size: 105%; 
+    margin-bottom: 5%; 
+}
+
+.dateText{
+    font-family: 'Raleway', sans-serif;
+    color: #5e5d5e; 
+    font-size: 100%; 
+}
+
+.dateHeaders{
+    font-family: 'Raleway', sans-serif;
+    color: #5e5d5e; 
+    font-size: 100%; 
+}
+
+
+footer{
+    background-color: #303030; 
+    font-size: small; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: white; 
+    letter-spacing: 3px;
+    border-top: 1px solid; 
+    border-color: #b5b3b3; 
+}
+
+input{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+    color: #5e5d5e; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #5e5d5e; 
+    font-size: smaller;
+}
+
+.buttons{
+    font-family: 'Raleway', sans-serif !important; 
+    color: #5e5d5e; 
+    
+}
+
+select{
+    font-family: 'Raleway', sans-serif;
+    color: #5e5d5e; 
+    font-size: 100%; 
+}
+
+output{
+    font-family: 'Raleway', sans-serif;
+    color: #5e5d5e; 
+}
+
+.datesShown{
+    font-family: 'Raleway', sans-serif;
+    color: #5e5d5e; 
+    font-size: 100%; 
+}
+
+
+.makeBooking{
+    font-family: 'Raleway', sans-serif;
+    color: #5e5d5e; 
+    font-size: 150%; 
+}
+
+.chooseDate{
+    font-family: 'Raleway', sans-serif;
+    color: #5e5d5e; 
+    font-size: 130%; 
+}
+
+.modal-title{
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+}
+
+
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 1.6s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+  input{
+    outline:none; 
+    border:0;
+}
+
+select{
+    outline:none;
+    border:0;
+}
+
+.bookTodayText{
+    font-family: 'Raleway', sans-serif;
+    font-weight:900;
+    font-size: 270%;
+    color: white; 
+    letter-spacing: 2px;
+}
+
+.labels{
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    font-size: 100%;
+    color: white; 
+}
+
+.selectLabels{
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 100%;
+    color: #5e5d5e; 
+}
+
+.dateText{
+    font-size: 110%; 
+}
+
+.whiteBox{
+    border-radius: 15px; 
+}
+
+.buttons{
+    font-family: 'Raleway', sans-serif !important; 
+    color: #5e5d5e; 
+}
+
+@media (max-width: 1800px){
+    .pad{
+        padding-bottom: 0%;
+    }
+}
+
+@media (max-width: 2000px){
+    .pad{
+        padding-bottom: 36%; 
+    }
+}
+
